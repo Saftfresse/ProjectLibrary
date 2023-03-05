@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bass.Net">
+      <HintPath>..\..\..\MP3-Multiplayer\MP3 Multiplayer\bin\Debug\Bass.Net.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -54,6 +57,7 @@
     <Compile Include="BorderlessFeatureForm.Designer.cs">
       <DependentUpon>BorderlessFeatureForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Margin.cs" />
     <Compile Include="ComboBoxItem.cs" />
     <Compile Include="CustomButton.cs">
       <SubType>Component</SubType>
